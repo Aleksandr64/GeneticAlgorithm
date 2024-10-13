@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.border {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.bg-blue-500 {
+  background-color: #4299e1;
+}
+
+.bg-green-500 {
+  background-color: #48bb78;
+}
+
+.bg-yellow-500 {
+  background-color: #ecc94b;
+}
+
+.bg-red-500 {
+  background-color: #f56565;
+}
+
+.bg-purple-500 {
+  background-color: #9f7aea;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+button{
+  width: 188px;
+  margin: 5px 0;
+  height: 100%;
+}
+
+input{
+  height: 40px;
+}
