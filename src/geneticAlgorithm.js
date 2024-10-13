@@ -92,6 +92,8 @@ export const geneticColoring = (nodes, edges, maxColors, iterations, popSize) =>
 		const { newPopulation, stop } = evolve(population, i);
 		population = newPopulation;
 
+		console.log(newPopulation);
+
 		const currentBest = population[0];
 		const currentBestFitness = fitness(currentBest);
 
