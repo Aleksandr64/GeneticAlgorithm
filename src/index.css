@@ -66,11 +66,13 @@ code {
 }
 
 button{
-  width: 188px;
+  width: 218px;
   margin: 5px 0;
-  height: 100%;
+  height: 60px;
 }
 
 input{
+  width: 200px;
   height: 40px;
+  margin: 5px 0;
 }

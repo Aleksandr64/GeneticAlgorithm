@@ -111,5 +111,5 @@ export const geneticColoring = (nodes, edges, maxColors, iterations, popSize) =>
 	}
 
 	console.log(`Алгоритм завершився за ${iterationReached} ітерацій`);
-	return bestSolution;
+	return { bestSolution, iterationReached };
 };
