@@ -13,6 +13,7 @@ import './App.css';
 import { generateColorPalette, autoAddVertices, autoAddEdges } from './graphUtils';
 import { geneticColoring } from './geneticAlgorithm';
 import { reconnectEdge } from '@xyflow/react';
+import {geneticColoringLab6} from "./geneticAlgorithmLab6";
 
 const GraphColoringApp = () => {
 	const initialNodes = [];
@@ -31,7 +32,7 @@ const GraphColoringApp = () => {
 
 	// Додавання нової вершини
 	const addNode = () => {
-		const newId = nodes.length + 1;
+		const newId = nodes.length;
 		const newNode = {
 			id: `${newId}`,
 			position: { x: Math.random() * 800, y: Math.random() * 400 },
